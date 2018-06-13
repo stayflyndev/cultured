@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Londrina+Sketch|Sofadi+One|Architects+Daughter');
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+    padding-top: 3.5rem;
+  }
+
+.bg-dblue
+{
+  background:#23093e;
+}
+
+.jumbotron{
+  padding-bottom:.5rem;
+  border-radius:0;
+  background-color: black;
+}
+.display-3{
+  font-family: 'Londrina Sketch', cursive;
+  color:white;
+}
+
+.head{
+  font-family: 'Sofadi One', cursive;
+}
+
+.btn{
+  background-color: #7c204f;
+}
+
+.btn-primary:hover{
+background-color: #e58a7a;
+}
+
+.quote
+{
+  font-family: 'Architects Daughter', cursive;
+  color: #961c7e
+}
+.right{
+  float:right;
+
+}
+.video-responsive{
+    overflow:hidden;
+    position:relative;
+    height:0;
+}
+.video-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
