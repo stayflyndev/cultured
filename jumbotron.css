@@ -27,19 +27,21 @@ body {
   background-color: #7c204f;
 }
 
-.btn-primary:hover{
+/* .btn-primary:hover{
 background-color: #e58a7a;
+} */
+
+.btn-secondary:hover{
+  background-color: #e58a7a;
 }
 
 .quote
 {
   font-family: 'Architects Daughter', cursive;
-  color: #961c7e
+  color: #961c7e;
+  
 }
-.right{
-  float:right;
 
-}
 .video-responsive{
     overflow:hidden;
     position:relative;
